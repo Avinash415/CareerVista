@@ -36,7 +36,7 @@ const Login = () => {
   }, [dispatch, error, loading, isAuthenticated]);
 
   return (
-    <section className="flex items-center justify-center min-h-screen bg-gradient-to-b from-blue-500 to-gray-900 p-4">
+    <section className="pt-40 flex items-center justify-center min-h-screen bg-gradient-to-b from-blue-500 to-gray-900 p-4">
       <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full">
         {/* Header Section */}
         <div className="mb-6 text-center">
@@ -107,7 +107,7 @@ const Login = () => {
               Don't have an account?{" "}
               <Link
                 to="/register"
-                className="text-blue-600 hover:underline font-medium"
+                className=" text-blue-600 hover:underline font-medium"
               >
                 Register Now
               </Link>

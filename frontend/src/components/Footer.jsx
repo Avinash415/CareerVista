@@ -13,12 +13,12 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="bg-gray-900 text-white py-10 px-6">
+      <footer className="bg-gray-900 text-white py-6 px-6">
         <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {/* Logo Section */}
           <div className="flex flex-col items-center md:items-start">
             <img
-              src="/logo.png"
+              src="src\assests\logo1.png"
               alt="logo"
               className="w-32 h-auto mb-4"
             />

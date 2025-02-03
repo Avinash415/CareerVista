@@ -92,7 +92,7 @@ const Jobs = () => {
         <Spinner />
       ) : (
         <section className="jobs">
-          <div className="search-tab-wrapper">
+          <div >
             <input
               type="text"
               value={searchKeyword}

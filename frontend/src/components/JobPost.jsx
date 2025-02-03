@@ -96,6 +96,7 @@ const JobPost = () => {
         formData.append("personalWebsiteUrl", personalWebsiteUrl);
   
       dispatch(postJob(formData));
+      navigate()
     };
   
     useEffect(() => {

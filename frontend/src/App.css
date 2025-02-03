@@ -15,6 +15,7 @@
   }
 }
 
+
 .animate-fadeInUp {
   animation: fadeInUp 1s ease-out forwards;
 }
@@ -680,7 +681,7 @@ footer div ul a span {
 }
 
 .jobs {
-  padding: 40px 100px;
+  padding: 173px 100px;
   min-height: 800px;
 }
 .jobs .wrapper {
@@ -837,7 +838,7 @@ footer div ul a span {
 
 @media (max-width: 920px) {
   .jobs {
-    padding: 40px 20px;
+    padding: 130px 20px;
   }
   .jobs .search-tab-wrapper {
     width: 100%;

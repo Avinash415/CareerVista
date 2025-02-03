@@ -86,7 +86,7 @@ const Register = () => {
   }, [dispatch, error, loading, isAuthenticated, message]);
 
   return (
-    <section className="flex items-center justify-center min-h-screen bg-gradient-to-b from-green-500 to-gray-900 p-4 ">
+    <section className="pt-40 flex items-center justify-center min-h-screen bg-gradient-to-b from-green-500 to-gray-900 p-4 ">
       <div className="bg-white rounded-lg shadow-lg p-8 max-w-lg w-full">
         {/* Header Section */}
         <div className="mb-6 text-center">

@@ -1,13 +1,18 @@
 {
+"homepage": "https://Avinash415.github.io/CareerVista",
+
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",

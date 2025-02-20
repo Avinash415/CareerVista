@@ -1,6 +1,5 @@
 {
-"homepage": "https://Avinash415.github.io/CareerVista",
-
+  "homepage": "https://Avinash415.github.io/CareerVista",
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
@@ -9,10 +8,11 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "start": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "clean": "rm -rf dist",
+    "predeploy": "npm run clean && npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
@@ -38,6 +38,7 @@
     "globals": "^15.9.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
-    "vite": "^5.4.1"
+    "vite": "^5.4.1",
+    "gh-pages": "^6.0.0"
   }
 }
